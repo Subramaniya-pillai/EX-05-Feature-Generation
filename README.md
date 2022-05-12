@@ -199,3 +199,5 @@ df5
 
 ### TITANIC.CSV:
 ![output](./titanic.png)
+# RESULT:
+Feature Generation process and Feature Scaling process is applied to the given data frames sucessfully.
