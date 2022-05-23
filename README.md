@@ -1,30 +1,30 @@
-# EX-05-Feature-Generation
+## EX 05 FEATURE GENERATION
 
+# AIM:
 
-## AIM
 To read the given data and perform Feature Generation process and save the data to a file. 
 
-# Explanation
+# EXPLANATION:
+
 Feature Generation (also known as feature construction, feature extraction or feature engineering) is the process of transforming features into new features that better relate to the target.
  
+# ALGORITHM:
 
-# ALGORITHM
-### STEP 1
-Read the given Data
-### STEP 2
-Clean the Data Set using Data Cleaning Process
-### STEP 3
-Apply Feature Generation techniques to all the feature of the data set
-### STEP 4
-Save the data to the file
-
+### STEP 1:
+Read the given Data.
+### STEP 2:
+Clean the Data Set using Data Cleaning Process.
+### STEP 3:
+Apply Feature Generation techniques to all the feature of the data set.
+### STEP 4:
+Save the data to the file.
 
 # CODE:
-### DEVELOPED BY: B.subramaniya pillai
-### reg no: 212221230109
-<br>
 
-### Data.csv :
+Program Developed: SARAVANA KUMAR S 
+Register Number: 212221230088
+
+# DATA.CSV:
 ```
 import pandas as pd
 df=pd.read_csv("data.csv")
@@ -82,8 +82,8 @@ sc3=RobustScaler()
 df5=pd.DataFrame(sc3.fit_transform(df1),columns=['id', 'bin_1', 'bin_2', 'City', 'Ord_1','Ord_2','Target'])
 df5
 ```
-### Encoding.csv :
 
+# ENCODING.CSV:
 ```
 import pandas as pd
 df=pd.read_csv("Encoding Data.csv")
@@ -133,7 +133,8 @@ sc3=RobustScaler()
 df4=pd.DataFrame(sc3.fit_transform(df1),columns=['id', 'bin_1', 'bin_2', 'nom_0','ord_2'])
 df4
 ```
-### Titanic.csv :
+
+# TITANIC.CSV:
 ```
 import pandas as pd
 df=pd.read_csv("titanic_dataset.csv")
@@ -189,13 +190,45 @@ sc3=RobustScaler()
 df5=pd.DataFrame(sc3.fit_transform(df1),columns=['Passenger','Survived','Pclass','Sex','Age','SibSp','Parch','Fare','Embarked'])
 df5
 ```
-# OUPUT:
-### DATA.CSV:
-![output](./data.png)
-<br>
-### ENCODING.CSV:
 
-![output](./encoding.png)
+# OUTPUT:
 
-### TITANIC.CSV:
-![output](./titanic.png)
+# DATA.CSV:
+
+![output](o1.png)
+![output](o2.png)
+![output](o3.png)
+![output](04.png)
+![output](o5.png)
+![output](o6.png)
+![output](o7.png)
+![output](o8.png)
+
+# ENCODING.CSV:
+
+![output](o9.png)
+![output](o10.png)
+![output](o11.png)
+![output](o12.png)
+![output](o13.png)
+![output](o14.png)
+![output](o15.png)
+![output](o16.png)
+
+# TITANIC.CSV:
+
+![output](o17.png)
+![output](o18.png)
+![output](o19.png)
+![output](o20.png)
+![output](o21.png)
+![output](o22.png)
+![output](o23.png)
+![output](o24.png)
+![output](o25.png)
+![output](o26.png)
+![output](o27.png)
+
+# RESULT:
+
+Feature Generation process and Feature Scaling process is applied to the given data frames sucessfully.
