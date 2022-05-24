@@ -229,12 +229,5 @@ df5
 ![output](o25.png)
 ![output](o26.png)
 ![output](o27.png)
-
 # RESULT:
-
-=======
-### TITANIC.CSV:
-![output](./titanic.png)
-# RESULT:
->>>>>>> e0415a2ef6c661b3857919fce9c4d0a212216091
 Feature Generation process and Feature Scaling process is applied to the given data frames sucessfully.
