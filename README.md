@@ -193,7 +193,6 @@ df5
 
 # OUTPUT:
 
-<<<<<<< HEAD
 # DATA.CSV:
 
 ![output](o1.png)
